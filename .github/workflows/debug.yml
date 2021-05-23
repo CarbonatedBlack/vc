@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@main
+      - uses: rokibhasansagar/slimhub_actions@main
 
       - name: running VC bot
         timeout-minutes: 300
